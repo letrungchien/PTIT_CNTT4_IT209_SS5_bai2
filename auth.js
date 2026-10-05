@@ -1,3 +1,3 @@
-function validateUser(username) {
-    return username.length > 0;
+function logout() {
+    console.log("User logged out");
 }
