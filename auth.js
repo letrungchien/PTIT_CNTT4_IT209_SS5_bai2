@@ -1,3 +1,3 @@
-function login(username, password) {
-    return username && password;
+function validateUser(username) {
+    return username.length > 0;
 }
